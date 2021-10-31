@@ -1,21 +1,21 @@
 console.log('------------- # 4')
 function sum(a, b) {
-    return a += b
+    return a + b
 }
 console.log(sum(50, 80));
 
 function minus(a, b) {
-    return a -= b
+    return a - b
 }
 console.log(minus(50, 80));
 
 function multiplication(a, b) {
-    return a *= b
+    return a * b
 }
 console.log(multiplication(50, 80));
 
 function share(a, b) {
-    return a /= b
+    return a / b
 }
 console.log(share(50, 80));
 
@@ -48,15 +48,15 @@ console.log(pow(20, 3));
 
 
 console.log('------------- # 8')
-function isBigger (a, b) {
+function isBigger(a, b) {
     return (a > b) ? true : false;
 }
 isBigger(5, -1);    
 
 
 console.log('------------- # 9')
-function isSmaller (a, b) {
-    return (a < b) ? true : false;
+function isSmaller(c, d) {
+    return (c < d) ? true : false;
 }
 isSmaller(5, -1);    
 
